@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokématch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" type="module"></script>
+  </head>
+  <body>
+    <section class="section section--game">
+      <div class="container container--game">
+        <div class="row row--title">
+          <div class="column">
+            <h1 class="h1">Pokématch</h1>
+          </div>
+        </div>
+
+        <div id="container--cards" class="row row--cards"></div>
+
+        <div class="row row--utilities">
+          <div class="column column--stats">
+            <div class="container--attempts">
+              <span>Attempts:</span>
+              <span id="value--attempts">0</span>
+            </div>
+            <div class="container--matches">
+              <span>Matches:</span>
+              <span id="value--matches">0</span>
+            </div>
+          </div>
+          <div class="column">
+            <button id="button--reset" class="button button--reset">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section--win-screen" class="section section--win-screen">
+      <div class="container container--win-screen">
+        <div class="row row--title">
+          <div class="column column--win-screen">
+            <h1 class="h1">Congratulations!</h1>
+            <h2 class="h2">You caught em all!</h2>
+            <p class="p">Play again?</p>
+            <button id="button--restart" class="button button--reset">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

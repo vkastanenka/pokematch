@@ -1,0 +1,64 @@
+/* #a8e6cf */
+/* #dcedc1 */
+/* #ffd3b6 */
+/* #ffaaa5 */
+/* #ff8b94 */
+
+@import "./css/grid.css";
+@import "./css/typography.css";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-display: fallback;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Basis Grotesque Pro", sans-serif;
+  color: #373e4d;
+  background: white;
+  background-image: url("./assets/images/wallpaper.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+::selection {
+  background-color: #a8e6cf;
+  color: white;
+}
+
+.button--reset {
+  border-color: #ff8b94;
+  background-color: transparent;
+  font-size: 18px;
+  box-shadow: none;
+}
+
+.card__hidden {
+  width: 80px;
+  height: 80px;
+  margin: 0px;
+  cursor: pointer;
+  background-color: #ff8b94;
+}
+
+
